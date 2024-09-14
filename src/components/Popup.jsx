@@ -6,7 +6,7 @@ function Popup({isOpen,closePopup,data}) {
    
          <>
             {
-            isOpen && <div className='absolute w-[90%] h-[95%] bg-gray-100 p-5 shadow-xl'>
+            isOpen && <div className='fixed w-[90%] h-[95%] bg-gray-100 p-5 shadow-xl'>
             <div className='w-full flex  flex-row items-center justify-between '>
                 <h1>Gallary</h1>
                 <button onClick={()=>closePopup()}>X</button>
